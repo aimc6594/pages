@@ -113,4 +113,4 @@ _____________________________
 | #104 | Sass Landing Page |          [Demo](https://toidicode.github.io/template/104-sass-landing-page/)           | [Download](https://github.com/toidicode/template/raw/master/src/104-sass-landing-page.zip/) |
 
 ## Have issue?
-- If you have any problem about copyright, please contact me, email: **thanhtai96nd@gmail.com**
+- If you have any problem about copyright, please contact me, email: **aimc.6594@gmail.com**
