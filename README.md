@@ -1,11 +1,11 @@
-# 100 pages HTML CSS
+# 100 paginas en HTML CSS
 
 _____________________________
 
-## Demostracion en vivo and Descargar.
+## Demostracion en vivo y Descarga.
 
 
-| #    | Name              |                                          Demostracion en vivo                                          | Descargar  |
+| #    | Nombre           |                                          Demostracion en vivo                                          | Descargar  |
 |:-----|-------------------|:--------------------------------------------------------------------------------------:| -------------------------:    |
 | #1   | foodee            |                [Demostracion en vivo](https://aimc6594.github.io/pages/01-foodee/)                 | [Descargar](https://github.com/aimc6594/pages/raw/master/src/01-foodee.zip/) |
 | #2   | tasty             |                 [Demostracion en vivo](https://aimc6594.github.io/pages/02-tasty/)                 | [Descargar](https://github.com/aimc6594/pages/raw/master/src/02-tasty.zip/) |
@@ -112,5 +112,6 @@ _____________________________
 | #103 | Grocery-Store     |        [Demostracion en vivo](https://aimc6594.github.io/pages/103-grocery-store/)                 | [Descargar](https://github.com/aimc6594/pages/raw/master/src/103-grocery-store.zip/) |
 | #104 | Sass Landing Page |          [Demostracion en vivo](https://aimc6594.github.io/pages/104-sass-landing-page/)           | [Descargar](https://github.com/aimc6594/pages/raw/master/src/104-sass-landing-page.zip/) |
 
-## Have issue?
-- If you have any problem about copyright, please contact me, email: **aimc.6594@gmail.com**
+## ¿Tuvo algún problema?
+
+Si tiene algún problema con los derechos de autor, comuníquese conmig, email: **aimc.6594@gmail.com**
