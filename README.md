@@ -114,4 +114,4 @@ _____________________________
 
 ## ¿Tuvo algún problema?
 
-Si tiene algún problema con los derechos de autor, comuníquese conmig, email: **aimc.6594@gmail.com**
+Si tiene algún problema con los derechos de autor, comuníquese conmigo, email: **aimc.6594@gmail.com**
