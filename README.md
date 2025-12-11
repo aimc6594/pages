@@ -40,7 +40,7 @@ _____________________________
 | #31  | hats              |                 [Demostracion en vivo](https://aimc6594.github.io/pages/30-hats/)                  | [Descargar](https://github.com/aimc6594/pages/raw/master/src/30-hats.zip/) |
 | #32  | vira              |                 [Demostracion en vivo](https://aimc6594.github.io/pages/31-vira/)                  | [Descargar](https://github.com/aimc6594/pages/raw/master/src/31-vira.zip/) |
 | #33  | landing zero      |             [Demostracion en vivo](https://aimc6594.github.io/pages/32-landing-zero/)              | [Descargar](https://github.com/aimc6594/pages/raw/master/src/32-landing-zero.zip/) |
-| #34  | aircv             |                 [Demostracion en vivo](https://aimc6594.github.io/pages/33-aircv/HTMS/)                 | [Descargar](https://github.com/aimc6594/pages/raw/master/src/33-aircv.zip/) |
+| #34  | aircv             |                 [Demostracion en vivo](https://aimc6594.github.io/pages/33-aircv/HTML/)                 | [Descargar](https://github.com/aimc6594/pages/raw/master/src/33-aircv.zip/) |
 | #35  | wow               |                  [Demostracion en vivo](https://aimc6594.github.io/pages/34-wow/)                  | [Descargar](https://github.com/aimc6594/pages/raw/master/src/34-wow.zip/) |
 | #36  | volcan            |                [Demostracion en vivo](https://aimc6594.github.io/pages/35-volcan/)                 | [Descargar](https://github.com/aimc6594/pages/raw/master/src/35-volcan.zip/) |
 | #37  | rabbit            |                [Demostracion en vivo](https://aimc6594.github.io/pages/36-rabbit/)                 | [Descargar](https://github.com/aimc6594/pages/raw/master/src/36-rabbit.zip/) |
