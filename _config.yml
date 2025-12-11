@@ -1,4 +1,22 @@
+# Tema remoto
 remote_theme: poole/hyde
-title: Aimc6594 Dev
-description: Tu fuente de 100+ plantillas HTML5, CSS3 y JS gratuitas para crear sitios web modernos y personalizados.
+
+# Información del sitio
+title: "Aimc6594 Dev"
+description: "Tu fuente de 100+ plantillas HTML5, CSS3 y JS gratuitas para crear sitios web modernos y personalizados."
+
+# Opciones del tema Hyde
+# (sidebar + colores)
+sidebar: true
+theme_color: theme-base-08   # puedes cambiarlo (ver lista abajo)
+
+# Configuración general
 show_downloads: false
+markdown: kramdown
+paginate: 5
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
