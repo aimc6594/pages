@@ -1,22 +1,43 @@
-# Tema remoto
-remote_theme: hyde
+# Tema remoto Hyde
+remote_theme: poole/hyde
 
-# Información del sitio
+# Información general
 title: "Aimc6594 Dev"
 description: "Tu fuente de 100+ plantillas HTML5, CSS3 y JS gratuitas para crear sitios web modernos y personalizados."
 
-# Opciones del tema Hyde
-# (sidebar + colores)
-sidebar: true
-theme_color: theme-base-08   # puedes cambiarlo (ver lista abajo)
-
-# Configuración general
-show_downloads: false
-markdown: kramdown
-paginate: 5
-
-# Build settings
+# Activar RSS, SEO, y demás plugins útiles
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate
+
+# Asegura que el index tenga prioridad como HOME
+# (ya que Hyde ordena páginas alfabéticamente si no se da layout)
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+
+  # Excepción: queremos que index.md use "default" y NO "page"
+  - scope:
+      path: "index.md"
+    values:
+      layout: default
+
+# Sidebar
+sidebar: true
+# Elimina el sticky o mantenlo así:
+# sidebar_sticky: false   # para desactivar
+sidebar_sticky: true      # para mantenerlo (Hyde por defecto)
+
+# Tema de color
+theme_color: theme-base-08   # Cambia a cualquier theme-base-0*
+
+# Reverse layout (opcional)
+# reverse_layout: true
+reverse_layout: false
+
+# Permite incluir CSS personalizado
+sass:
+  style: compressed
