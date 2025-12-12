@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>100 Páginas HTML CSS</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h3>100 páginas en HTML CSS</h3>
+    <h5>Demostración en vivo y Descarga</h5>
+    <table class="highlight">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Nombre</th>
+                <th>Demostración en vivo</th>
+                <th>Descargar</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+    <p>Si tiene algún problema con los derechos de autor, comuníquese conmigo, email: <strong>aimc.6594@gmail.com</strong></p>
+</div>
+
+<script>
+const pages = [
+{nombre:"foodee", live:"01-foodee", download:"01-foodee"},
+{nombre:"tasty", live:"02-tasty", download:"02-tasty"},
+{nombre:"ethereal", live:"03-ethereal", download:"03-ethereal"},
+{nombre:"karmo", live:"04-karmo", download:"04-karmo"},
+{nombre:"bodo", live:"05-bodo", download:"05-bodo"},
+{nombre:"portfolio master", live:"06-portfolio-master", download:"06-portfolio-master"},
+{nombre:"snow master", live:"07-snow-master", download:"07-snow-master"},
+{nombre:"synthetica", live:"08-synthetica", download:"08-synthetica"},
+{nombre:"sprout master", live:"09-sprout-master", download:"09-sprout-master"},
+{nombre:"bicycling master", live:"10-bicycling-master", download:"10-bicycling-master"},
+{nombre:"cookingschool", live:"100-cookingschool", download:"100-cookingschool"},
+{nombre:"megakit master", live:"11-megakit-master", download:"11-megakit-master"},
+{nombre:"garage", live:"12-garage", download:"12-garage"},
+{nombre:"knight", live:"13-knight", download:"13-knight"},
+{nombre:"new age", live:"14-new-age", download:"14-new-age"},
+{nombre:"treviso", live:"15-treviso", download:"15-treviso"},
+{nombre:"story", live:"16-story", download:"16-story"},
+{nombre:"cardio", live:"17-cardio", download:"17-cardio"},
+{nombre:"infinity", live:"18-infinity", download:"18-infinity"},
+{nombre:"made one", live:"19-made-one", download:"19-made-one"},
+{nombre:"made two", live:"20-made-two", download:"20-made-two"},
+{nombre:"weather", live:"21-weather", download:"21-weather"},
+{nombre:"john doe", live:"22-john-doe", download:"22-john-doe"},
+{nombre:"rage", live:"23-rage", download:"23-rage"},
+{nombre:"solid state", live:"24-solid-state", download:"24-solid-state"},
+{nombre:"invention", live:"25-invention", download:"25-invention"},
+{nombre:"exigo", live:"26-exigo", download:"26-exigo"},
+{nombre:"logic", live:"27-logic", download:"27-logic"},
+{nombre:"clemo", live:"28-clemo", download:"28-clemo"},
+{nombre:"bino", live:"29-bino", download:"29-bino"},
+{nombre:"hats", live:"30-hats", download:"30-hats"},
+{nombre:"vira", live:"31-vira", download:"31-vira"},
+{nombre:"landing zero", live:"32-landing-zero", download:"32-landing-zero"},
+{nombre:"aircv", live:"33-aircv/HTML", download:"33-aircv"},
+{nombre:"wow", live:"34-wow", download:"34-wow"},
+{nombre:"volcan", live:"35-volcan", download:"35-volcan"},
+{nombre:"rabbit", live:"36-rabbit", download:"36-rabbit"},
+{nombre:"lazyfox", live:"37-lazyfox", download:"37-lazyfox"},
+{nombre:"conference", live:"38-conference", download:"38-conference"},
+{nombre:"sight", live:"39-sight", download:"39-sight"},
+{nombre:"metronic shop ui", live:"40-metronic-shop-ui/theme/shop-index.html", download:"40-metronic-shop-ui"},
+{nombre:"metronic one page", live:"41-metronic-one-page/theme/index.html", download:"41-metronic-one-page"},
+{nombre:"navigator onepage", live:"42-navigator-onepage/index.html", download:"42-navigator-onepage"},
+{nombre:"metronic one page", live:"43-metronic-one-page/theme/", download:"43-metronic-one-page"},
+{nombre:"fame", live:"44-fame", download:"44-fame"},
+{nombre:"themelight", live:"45-themelight", download:"45-themelight"},
+{nombre:"plantilla", live:"46-plantilla", download:"46-plantilla"},
+{nombre:"avana", live:"47-avana", download:"47-avana"},
+{nombre:"metronic frontend", live:"48-metronic-frontend", download:"48-metronic-frontend"},
+{nombre:"asentus", live:"49-asentus", download:"49-asentus"},
+{nombre:"airspace", live:"50-airspace", download:"50-airspace"},
+{nombre:"acidus", live:"51-acidus", download:"51-acidus"},
+{nombre:"applayers", live:"52-applayers", download:"52-applayers"},
+{nombre:"bizexpress", live:"53-bizexpress", download:"53-bizexpress"},
+{nombre:"bizium", live:"54-bizium", download:"54-bizium"},
+{nombre:"robot factory", live:"55-robot-factory", download:"55-robot-factory"},
+{nombre:"ghughu", live:"56-ghughu", download:"56-ghughu"},
+{nombre:"texas lawyer", live:"57-texas-lawyer", download:"57-texas-lawyer"},
+{nombre:"lifetrackr", live:"58-lifetrackr", download:"58-lifetrackr"},
+{nombre:"euro travels", live:"59-euro-travels", download:"59-euro-travels"},
+{nombre:"meatking", live:"60-meatking", download:"60-meatking"},
+{nombre:"mamma s kitchen", live:"61-mamma-s-kitchen", download:"61-mamma-s-kitchen"},
+{nombre:"twenty", live:"62-twenty", download:"62-twenty"},
+{nombre:"spectral", live:"63-spectral", download:"63-spectral"},
+{nombre:"gentelella", live:"64-gentelella", download:"64-gentelella"},
+{nombre:"boxer", live:"65-boxer", download:"65-boxer"},
+{nombre:"white pro", live:"66-white-pro", download:"66-white-pro"},
+{nombre:"awesome", live:"67-awesome", download:"67-awesome"},
+{nombre:"johndoe", live:"68-johndoe", download:"68-johndoe"},
+{nombre:"lucy", live:"69-lucy", download:"69-lucy"},
+{nombre:"brandi", live:"70-brandi", download:"70-brandi"},
+{nombre:"meghna", live:"71-meghna", download:"71-meghna"},
+{nombre:"navada plus", live:"72-navada-plus", download:"72-navada-plus"},
+{nombre:"rain", live:"73-rain", download:"73-rain"},
+{nombre:"sports coach", live:"74-sports-coach", download:"74-sports-coach"},
+{nombre:"agency", live:"75-agency", download:"75-agency"},
+{nombre:"humanity", live:"76-humanity", download:"76-humanity"},
+{nombre:"imminent", live:"77-imminent", download:"77-imminent"},
+{nombre:"evento", live:"78-evento", download:"78-evento"},
+{nombre:"layla", live:"79-layla", download:"79-layla"},
+{nombre:"restaurant", live:"80-restaurant", download:"80-restaurant"},
+{nombre:"travellers", live:"81-travellers", download:"81-travellers"},
+{nombre:"restaurant", live:"82-restaurant", download:"82-restaurant"},
+{nombre:"fitness", live:"83-fitness", download:"83-fitness"},
+{nombre:"creative", live:"84-creative", download:"84-creative"},
+{nombre:"awesome", live:"85-awesome", download:"85-awesome"},
+{nombre:"photographer", live:"86-photographer", download:"86-photographer"},
+{nombre:"luxury", live:"87-luxury", download:"87-luxury"},
+{nombre:"darkjoe", live:"88-darkjoe", download:"88-darkjoe"},
+{nombre:"developer", live:"89-developer", download:"89-developer"},
+{nombre:"polo", live:"90-polo", download:"90-polo"},
+{nombre:"renessa", live:"91-renessa", download:"91-renessa"},
+{nombre:"office", live:"92-office", download:"92-office"},
+{nombre:"flusk", live:"93-flusk", download:"93-flusk"},
+{nombre:"the portfolio", live:"94-the-portfolio", download:"94-the-portfolio"},
+{nombre:"initio", live:"95-initio", download:"95-initio"},
+{nombre:"dolphin", live:"96-dolphin", download:"96-dolphin"},
+{nombre:"soft tech", live:"97-soft-tech", download:"97-soft-tech"},
+{nombre:"mind craft", live:"98-mind-craft", download:"98-mind-craft"},
+{nombre:"season", live:"99-season", download:"99-season"},
+{nombre:"mobishop", live:"101-mobishop", download:"101-mobishop"},
+{nombre:"Awesome portfolio", live:"102-awesome-portfolio", download:"102-Awesome_Portfolio"},
+{nombre:"Grocery-Store", live:"103-grocery-store", download:"103-grocery-store"},
+{nombre:"Sass Landing Page", live:"104-sass-landing-page", download:"104-sass-landing-page"}
+];
+
+const tbody = document.getElementById("table-body");
+
+pages.forEach((page, index) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+        <td>#${index + 1}</td>
+        <td>${page.nombre}</td>
+        <td><a class="btn-small blue" href="https://aimc6594.github.io/pages/${page.live}/" target="_blank"><i class="material-icons">visibility</i>Ver</a></td>
+        <td><a class="btn-small green" href="https://github.com/aimc6594/pages/raw/master/src/${page.download}.zip" target="_blank"><i class="material-icons">file_download</i>Download</a></td>
+    `;
+    tbody.appendChild(tr);
+});
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
